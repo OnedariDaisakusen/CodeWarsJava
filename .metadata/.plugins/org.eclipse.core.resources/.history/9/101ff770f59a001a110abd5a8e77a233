@@ -1,0 +1,26 @@
+
+public class CodeWars {
+
+	public static void main(String[] args) {
+
+		System.out.println("Suma de multiplos : " + solution(10));
+		
+	}
+
+	public static int solution(int number) {
+		// TODO: Code stuff here}
+		System.out.println("Numero : " + number);
+		int suma = 0;
+		for (int i = 1; i < number; i++) {
+			if(i%3==0 || i%5==0){
+				suma+=i;
+			}
+		}
+		return suma;
+	}
+	
+	public static int countBits(int n){
+		// Show me the code!
+		String binary = Integer.toBinaryString(n);
+	}
+}

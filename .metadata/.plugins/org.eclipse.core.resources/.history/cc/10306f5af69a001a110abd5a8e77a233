@@ -1,0 +1,36 @@
+
+public class CodeWars {
+
+	public static void main(String[] args) {
+
+		//System.out.println("Suma de multiplos : " + solution(10));
+		System.out.println("Conversion a binario : " + countBits(1234));
+		
+	}
+
+	public static int solution(int number) {
+		// TODO: Code stuff here}
+		System.out.println("Numero : " + number);
+		int suma = 0;
+		for (int i = 1; i < number; i++) {
+			if(i%3==0 || i%5==0){
+				suma+=i;
+			}
+		}
+		return suma;
+	}
+	
+	public static int countBits(int n){
+		// Show me the code!
+		System.out.println("Numero : " + n);
+		String binary = Integer.toBinaryString(n);
+		System.out.println("Binario : " + binary);
+		int cant = 0;
+		for (int i = 0; i < binary.length(); i++) {
+			if(binary.substring(i, 1).equals("1")){
+				cant++;
+			}
+		}
+		return cant;
+	}
+}

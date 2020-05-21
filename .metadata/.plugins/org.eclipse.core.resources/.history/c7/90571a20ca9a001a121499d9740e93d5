@@ -1,0 +1,15 @@
+
+public class CodeWars {
+
+	public static void main(String[] args) {
+
+	}
+
+	public int solution(int number) {
+		// TODO: Code stuff here
+		for (int i = 1; i <= number; i++) {
+			
+		}
+		return 0;
+	}
+}
